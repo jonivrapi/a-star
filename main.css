@@ -1,0 +1,49 @@
+body{
+    width: 96%!important;
+    margin: 0 auto!important;
+}
+
+td{
+    height: 75px;
+    position: relative;
+}
+
+code {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    display: inline-block;
+    font-family: "Monaco","Menlo","Ubuntu Mono","Consolas","source-code-pro",monospace;
+    font-size: 0.875em;
+    font-weight: bold;
+    vertical-align: baseline;
+}
+
+code.coordinates{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+code.f{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: blue;
+}
+
+code.g{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: green;
+}
+
+code.h{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: red;
+}
+.underline{
+    text-decoration: underline;
+}
